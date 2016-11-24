@@ -4,6 +4,7 @@
 	<title> Vangsters</title>
 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<script type="text/javascript" src="./bootstrap/js/jquery.min.js"></script>
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 <style type="text/css">
@@ -12,7 +13,10 @@
 	width: :80px;
 	height: 80px;
 }
-
+.margin-f{
+	margin-left: 10px;
+    color: white;
+ }
 
 </style>
 </head>
@@ -21,21 +25,23 @@
 
     <header style="background-color:Peru" class="row"> 
 		
-		<img style="margin-left:30px " src="b.png" class="img-responsive">
+		<img style="margin-left:30px; max-width: 145px" src="b.png" class="img-responsive">
 		
-		<div style="margin-left:210px; margin-top:-60px ">
-			<ul style="margin-left:5px " class="nav navbar-nav">				
-				<li>
-					<a href="#" > <p style="color: white ">Hire Someone</p>  </a> 
-				</li>
-				<li>
-					<a href="#" > <p style="color: white">Payment Details</p>  </a> 
-				</li>
-			</ul>
+		<div style="margin-left:210px; margin-top:-50px ">
+			<ul class="nav navbar-nav">		
 
-			<ul  class="nav navbar-nav">	
+				<li>
+					<a href="#"  style="color: white ">Hire Someone</a> 
+				</li>
+				<li>
+					<a href="#" style="color: white">Payment Details </a> 
+				</li>
+
+			<!-- </ul> -->
+
+			<!-- <ul  class="nav navbar-nav">	 -->
 				<li class="dropdown">
-					<a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" > Jobs  
+					<a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown"> Jobs  
 						<span class="caret"></span> 
 					</a>
                 	<ul class="dropdown-menu">
@@ -58,7 +64,7 @@
 			
 			<ul  style="margin-right:43px" class="nav navbar-nav navbar-right">
 				<li class="dropdown ">
-					<a href="#" style="color: white; margin-left:-20px" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Menu 
+					<a href="#" style="color: white; margin-left:-20px;" class="dropdown-toggle" data-toggle="dropdown"> Menu 
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
@@ -96,30 +102,32 @@
 <div class="container">
 	<div class="row">
 
-		<div  style="margin-top: 30px" class="col-sm-4">
-			<div style="background-color:Peru; border-radius:  6px">
-				<h4>
-					<i class="fa fa-star" style="color:white"></i>
-					Details
-					<span style="float:right">
-				    	<button class="btn btn-primary">Edit</button> 		
-					</span>
-				</h4>
-				<p style="color: white; margin-left:10px ">
-					<b> Business Name:</b>
-					HBS TECh
-				</p>
-				<p style="color: white; margin-left:10px">
-					<b> Business Location:</b>
-					lowa
-				</p>
-				<p style="color: white; margin-left:10px">
-					<b> Business Details:</b>
-					Providing Banking Solutions
-				</p>
-				<a style="color: white; margin-left:10px" href="#" class="btn btn-primary">Post Job
-				</a>
-			<br>	
+		<div  style="margin-top: 30px" class="col-sm-4 col-xs-12">
+			<div style="background-color:Peru; border-radius:6px">
+				<div class="margin-f">	
+					<h4 >
+						<i style="margin-top: 25px" class="fa fa-star"></i>
+						Details
+						<span style="float:right">
+				    		<button class="btn btn-primary">Edit</button> 		
+						</span>
+					</h4>
+					<p>
+						<b> Business Name:</b>
+						HBS TECh
+					</p>
+					<p>
+						<b> Business Location:</b>
+						lowa
+					</p>
+					<p>
+						<b> Business Details:</b>
+						Providing Banking Solutions
+					</p>
+					<a style="margin-bottom: 10px;" href="#" class="btn btn-primary">Post Job
+					</a>
+				<br>
+				</div>	
 			</div>
 			<div  style="background-color:Peru; border-radius:  6px">
 			 	<p  style="margin-top:20px; color: white; margin-left:10px; margin-right:10px" class="text-justify" >
@@ -131,58 +139,64 @@
 			   <br>
 			</div>
 		</div>
-		<div  style="margin-top: 30px" class="col-sm-8">
-			<div style="background-color:Peru; border-radius:  6px">
-				<h4>
-					<i class="fa fa-star" style="color:white;"></i>
-					Social 
-					<span style="float:right">
+		<div  style="margin-top: 30px" class="col-sm-8 col-xs-12">
+			<div  style="background-color:Peru; border-radius:  6px">
+				<div class="margin-f">
+					<h4>
+						<i style="margin-top: 25px" class="fa fa-star " ></i>
+						Social 
+						<span style="float:right">
 						<button class="btn btn-primary">Edit</button>
-					</span>
-				</h4>
-				<p style="color: white; margin-left:10px ">
-					<b> Website:</b>
-					 http://www.hbstech.co.uk/ 
-				</p>
-				<p style="color: white;margin-left:10px">
-					<b> Facebook :</b>
+						</span>
+					</h4>
+					<p>
+						<b> Website:</b>
+					 	http://www.hbstech.co.uk/ 
+					</p>
+					<p >
+						<b> Facebook :</b>
 					
-				</p>
-				<p style="color: white; margin-left:10px">
-					<b> Instagram :</b>
-				</p>
-			    <p style="color: white;margin-left:10px">
-					<b> twitter :</b>
-				</p>
-				<hr>
-				<br>
+					</p>
+					<p >
+						<b> Instagram :</b>
+					</p>
+			    	<p >
+						<b> twitter :</b>
+					</p>
+					<hr>
+					<br>
+				</div>
 			</div>		
 			<div style="background-color:Peru; border-radius:  6px">
-				<h4 style="margin-top:10px">
-					<i class="fa fa-star" style="color: white"></i>
-					Photos
-					<span style="float:right">
-						<button type="button" class="btn btn-primary ">Edit</button>
-					</span>
-				</h4>
-				<h6 style="color: white; margin-left:10px"> <b> Logo</b></h6>
-		        <img style="margin-left:10px" src="c.jpg" class="main">
-		        <h6 style="color: white; margin-left:10px"> <b> Cover photo</b></h6>
-		        <img style="margin-left:10px" src="d.jpeg"  class="main">
-		        <hr>
+				<div class="margin-f">	
+					<h4 style="margin-top:10px">
+						<i style="margin-top: 25px" class="fa fa-star" ></i>
+						Photos
+						<span style="float:right">
+							<button type="button" class="btn btn-primary ">Edit</button>
+						</span>
+					</h4>
+					<h6 > <b> Logo</b></h6>
+		        	<img src="c.jpg" class="main">
+		        	<h6  > <b> Cover photo</b></h6>
+		        	<img  src="d.jpeg"  class="main">
+		        	<hr>
+		        
 		        <br>    
+			   </div>
 			</div>
 			<div style="background-color:Peru; border-radius:  6px">
-				<h4>
-					<i class="fa fa-star" style="color: white""></i>
-					Posted Jobs
-					<span class="float-right"></span>
-				</h4>
-				<p style="color: white;margin-left:10px" >
-					No Jobs Posted yet ... ! 
-				</p>
-				<a  style="color:DarkOrange; margin-left:10px" href="#"> See complete list of posted jobs</a>
-			    
+				<div class="margin-f">
+					<h4>
+						<i style="margin-top: 25px" class="fa fa-star"></i>
+						Posted Jobs
+						<span class="float-right"></span>
+					</h4>
+					<p  >
+						No Jobs Posted yet ... ! 
+					</p>
+					<a  style="color:DarkOrange" href="#"> See complete list of posted jobs</a>
+			    </div>
 			</div>	
 				
 		  		
