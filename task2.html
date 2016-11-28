@@ -17,99 +17,104 @@
 	margin-left: 10px;
     color: white;
  }
+ .b{
+    background-color:YellowGreen; 
+    border-color:YellowGreen;
+  }	
+  .bb{
+  	margin-right:30px;
+  	margin-top: 18px ;
+  }
 
 </style>
 </head>
 
 <body>
 
-    <header style="background-color:Peru" class="row"> 
+  <header style="background-color:DarkGreen" class="container-fluid"> 
+    	<div class="row"> 
 		
-		<img style="margin-left:30px; max-width: 145px" src="b.png" class="img-responsive">
+			<img style="margin-left:15px; max-width: 145px" src="b.png" class="img-responsive">
 		
-		<div style="margin-left:210px; margin-top:-50px ">
-			<ul class="nav navbar-nav">		
+			<div style="margin-left:180px; margin-top:-50px ">
+				<ul class="nav navbar-nav">		
 
-				<li>
-					<a href="#"  style="color: white ">Hire Someone</a> 
-				</li>
-				<li>
-					<a href="#" style="color: white">Payment Details </a> 
-				</li>
+					<li>
+						<a href="#"  style="color: white ">Hire Someone</a> 
+					</li>
+					<li>
+						<a href="#" style="color: white">Payment Details </a> 
+					</li>
+  					<li class="dropdown">
+						<a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown"> Jobs  
+							<span class="caret"></span> 
+						</a>
+                		<ul class="dropdown-menu">
+                			<li>
+                				<a href="#" >Posted Jobs</a>
+                			</li>
+                			<li>
+                				<a href="#">Create Jobs</a>
+                			</li>
+                			<li>
+                				<a href="#" >Hidden Jobs</a>
+                			</li>
+                			<li>
+                				<a href="#"  >Inactive Jobs</a>
+                			</li>
 
-			<!-- </ul> -->
-
-			<!-- <ul  class="nav navbar-nav">	 -->
-				<li class="dropdown">
-					<a style="color:white" href="#" class="dropdown-toggle" data-toggle="dropdown"> Jobs  
-						<span class="caret"></span> 
-					</a>
-                	<ul class="dropdown-menu">
-                		<li>
-                			<a href="#" >Posted Jobs</a>
-                		</li>
-                		<li>
-                			<a href="#">Create Jobs</a>
-                		</li>
-                		<li>
-                			<a href="#" >Hidden Jobs</a>
-                		</li>
-                		<li>
-                			<a href="#"  >Inactive Jobs</a>
-                		</li>
-
-                	</ul> 	
-				</li>
-			</ul>	
+                		</ul> 	
+					</li>
+				</ul>	
 			
-			<ul  style="margin-right:43px" class="nav navbar-nav navbar-right">
-				<li class="dropdown ">
-					<a href="#" style="color: white; margin-left:-20px;" class="dropdown-toggle" data-toggle="dropdown"> Menu 
-						<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Profile  </a>
-						</li>
-						<li>
-							<a href="#">Acount Upgrade</a>
-						</li>
-						<li>
-							<a href="#">Registered Candidates </a>
-						</li>
-						<li>
-							<a href="#">Registered Companies </a>
-						</li>
-						<li>
-							<a href="#">Sponsors </a>
-						</li>
-						<li>
-							<a href="#">Gallery </a>
-						</li>
-						<li>
-							<a href="#">Feedback </a>
-						</li>
-					</ul>
+				<ul  style="margin-right:43px" class="nav navbar-nav navbar-right">
+					<li class="dropdown ">
+						<a href="#" style="color: white; margin-left:-20px;" class="dropdown-toggle" data-toggle="dropdown"> Menu 
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Profile  </a>
+							</li>
+							<li>
+								<a href="#">Acount Upgrade</a>
+							</li>
+							<li>
+								<a href="#">Registered Candidates </a>
+							</li>
+							<li>
+								<a href="#">Registered Companies </a>
+							</li>
+							<li>
+								<a href="#">Sponsors </a>
+							</li>
+							<li>
+								<a href="#">Gallery </a>
+							</li>
+							<li>
+								<a href="#">Feedback </a>
+							</li>
+						</ul>
 
 					
-				</li>
-			</ul>	
-		</div>
-	</header>
-
-
+					</li>
+				</ul>	
+			</div>
+		</div>	
+		</header>
+		
 
 <div class="container">
 	<div class="row">
 
 		<div  style="margin-top: 30px" class="col-sm-4 col-xs-12">
-			<div style="background-color:Peru; border-radius:6px">
+			<div style="background-color:DarkGreen; border-radius:6px">
 				<div class="margin-f">	
 					<h4 >
 						<i style="margin-top: 25px" class="fa fa-star"></i>
 						Details
-						<span style="float:right">
-				    		<button class="btn btn-primary">Edit</button> 		
+						<span style="float:right ">
+				    		<button class="btn btn-primary b bb">Active Job</button> 		
 						</span>
 					</h4>
 					<p>
@@ -124,29 +129,29 @@
 						<b> Business Details:</b>
 						Providing Banking Solutions
 					</p>
-					<a style="margin-bottom: 10px;" href="#" class="btn btn-primary">Post Job
+					<a style="margin-bottom: 10px;" href="#" class="btn btn-primary b">Post Job
 					</a>
 				<br>
 				</div>	
 			</div>
-			<div  style="background-color:Peru; border-radius:  6px">
+			<div  style="background-color:DarkGreen; border-radius:  6px">
 			 	<p  style="margin-top:20px; color: white; margin-left:10px; margin-right:10px" class="text-justify" >
 			   Your profile is currently ACTIVE. Your published posts will be seen and you are in the public company profiles age. If you would like to hide your profile, click the "Hide Me" Button Below. You can reactivate your profile at any time.	
 			 	</p>
 			 		<center>
-			 			<a  style="color: white" href="#" class="btn btn-primary">Post Job</a>
+			 			<a  style="color: white" href="#" class="btn btn-primary b">Post Job</a>
 			 		</center>	
 			   <br>
 			</div>
 		</div>
 		<div  style="margin-top: 30px" class="col-sm-8 col-xs-12">
-			<div  style="background-color:Peru; border-radius:  6px">
+			<div  style="background-color:DarkGreen; border-radius:  6px">
 				<div class="margin-f">
 					<h4>
 						<i style="margin-top: 25px" class="fa fa-star " ></i>
 						Social 
 						<span style="float:right">
-						<button class="btn btn-primary">Edit</button>
+						<button class="btn btn-primary bb b">Edit</button>
 						</span>
 					</h4>
 					<p>
@@ -167,25 +172,25 @@
 					<br>
 				</div>
 			</div>		
-			<div style="background-color:Peru; border-radius:  6px">
+			<div style="background-color:DarkGreen; border-radius:  6px">
 				<div class="margin-f">	
 					<h4 style="margin-top:10px">
 						<i style="margin-top: 25px" class="fa fa-star" ></i>
 						Photos
 						<span style="float:right">
-							<button type="button" class="btn btn-primary ">Edit</button>
+							<button type="button" class="btn btn-primary bb b ">Edit</button>
 						</span>
 					</h4>
-					<h6 > <b> Logo</b></h6>
+					<h6> Logo</h6>
 		        	<img src="c.jpg" class="main">
-		        	<h6  > <b> Cover photo</b></h6>
+		        	<h6 > Cover photo</h6>
 		        	<img  src="d.jpeg"  class="main">
 		        	<hr>
 		        
 		        <br>    
 			   </div>
 			</div>
-			<div style="background-color:Peru; border-radius:  6px">
+			<div style="background-color:DarkGreen; border-radius:  6px">
 				<div class="margin-f">
 					<h4>
 						<i style="margin-top: 25px" class="fa fa-star"></i>
